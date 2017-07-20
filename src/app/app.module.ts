@@ -12,6 +12,7 @@ const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'features', component: FeaturesComponent },
   { path: 'feature-card', component: FeatureCardComponent },
+  { path: 'feature-details', component: FeatureDetailsComponent },
 ];
 
 @NgModule({
