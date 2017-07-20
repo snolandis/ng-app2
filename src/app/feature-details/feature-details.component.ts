@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./feature-details.component.css']
 })
 export class FeatureDetailsComponent implements OnInit {
-
+  numberId = 10;
   constructor() { }
 
   ngOnInit() {

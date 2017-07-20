@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./features.component.css']
 })
 export class FeaturesComponent implements OnInit {
-
+  numberId = 19;
   constructor() { }
 
   ngOnInit() {

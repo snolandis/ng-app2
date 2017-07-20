@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./feature-card.component.css']
 })
 export class FeatureCardComponent implements OnInit {
-
+    numberId = 1;
   constructor() { }
 
   ngOnInit() {
