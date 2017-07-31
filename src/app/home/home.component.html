@@ -12,7 +12,7 @@
   <!-- /.row -->
 
     <div class="row text-center">
-      <app-feature-card></app-feature-card>
+      <app-feature-card [feature]="feature" *ngFor="let feature of features"></app-feature-card>
     </div>
 </div>
 

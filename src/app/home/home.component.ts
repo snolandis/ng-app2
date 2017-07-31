@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Feature } from '../features/features.component';
 
 @Component({
   selector: 'app-home',
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  numberId = 1;
+  features: Feature[];
+
+
   constructor() { }
 
   ngOnInit() {
