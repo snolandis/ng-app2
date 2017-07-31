@@ -10,12 +10,17 @@
             </div>
         </div>
 
-
-        <!-- Page Features -->
-
-    
-
         <div class="row text-center">
+          <app-feature-card [feature]="feature" *ngFor="let feature of features"></app-feature-card>
+        </div>
+        
+    </div>
+
+
+
+
+
+        <!-- <div class="row text-center">
 
             <div class="col-md-3 col-sm-6 hero-feature">
                 <div class="thumbnail">
@@ -68,7 +73,7 @@
                     </div>
                 </div>
             </div>
-          </div>
+          </div> -->
 
         <!-- close of top div -->
-        </div>
+        <!-- </div> -->
