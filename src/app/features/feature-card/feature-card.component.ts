@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Feature } from '../feature';
 
 @Component({
   selector: 'app-feature-card',
@@ -6,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./feature-card.component.css']
 })
 export class FeatureCardComponent implements OnInit {
+  @Input() feature: Feature;
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+  
+}
+
+
+// old code
 //   features: [
 //     {
 //       "slug": "feature-title-1",
@@ -21,14 +33,4 @@ export class FeatureCardComponent implements OnInit {
 //       "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
 //       "image":"http//placehold.it/600x300"
 //     }
-//
-//
-//
-//
 // ]
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}

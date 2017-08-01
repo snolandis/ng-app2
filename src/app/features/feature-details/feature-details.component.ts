@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Feature } from '../feature';
 
 @Component({
   selector: 'app-feature-details',
@@ -6,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./feature-details.component.css']
 })
 export class FeatureDetailsComponent implements OnInit {
-  numberId = 10;
+  public feature: Feature;
+
+
   constructor() { }
 
   ngOnInit() {
