@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Feature } from '../feature';
+import { ActivatedRoute, ParamMap } from '@angular/router';
+import { FeaturesService } from '../features.service';
 
 @Component({
   selector: 'app-feature-details',
@@ -9,10 +11,12 @@ import { Feature } from '../feature';
 export class FeatureDetailsComponent implements OnInit {
   public feature: Feature;
 
-
-  constructor() { }
-
-  ngOnInit() {
+  constructor(private route: ActivatedRoute, private featuresService: FeaturesService) {
   }
 
+  ngOnInit() {
+    this.route.paramMap
+      .switchMap((params: ParamMap) => this.featuresService.getBySlug(params.get('slug')))
+      .subscribe(feature => this.feature = feature);
+  }
 }
