@@ -47,3 +47,20 @@ h1, h2, h3, p {
     color: #dd0;
     background-color: #fff;
 }
+/*hamburger button*/
+.navbar-inverse .navbar-toggle {
+    color: #fff;
+    background-color: #dd0;
+    border-color: #fff;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    color: #dd0;
+    background-color: #dd0;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #2CBAE7;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    color: #fff;
+    background-color: #fff;
+}
