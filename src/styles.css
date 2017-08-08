@@ -1,10 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
-hr {
-  color: white;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #000
-
+h1, h2, h3, p {
+  color: white
 }
 #blue {
   background-color: #2CBAE7
@@ -15,6 +11,16 @@ hr {
 #yellow {
   background-color: #dd0
 }
+.btn-default {
+    color: #fff;
+    background-color: #dd0;
+    border-color: #fff;
+}
+.btn-default:hover {
+    color: #dd0;
+    background-color: #fff;
+    border-color: #fff;
+  }
 .navbar {
   color: white;
   background-color: #dd0;
@@ -28,7 +34,7 @@ hr {
 }
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
     color: #dd0;
-    background-color: white;
+    background-color: #fff;
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #fff;
@@ -36,9 +42,6 @@ hr {
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
     color: #dd0;
     background-color: white;
-}
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-
 }
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
     color: #dd0;
