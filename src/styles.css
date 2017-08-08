@@ -1,9 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 h1, h2, h3, p {
   color: white
 }
 #blue {
-  background-color: #2CBAE7
+  background-color: #2CBAE7;
+  height: 100%
 }
 #pink {
   background-color: #FE4972
