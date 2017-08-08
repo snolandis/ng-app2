@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+hr {
+  color: white;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #000
+
+}
+#blue {
+  background-color: #2CBAE7
+}
+#pink {
+  background-color: #FE4972
+}
+#yellow {
+  background-color: #dd0
+}
+.navbar {
+  color: white;
+  background-color: #dd0;
+}
+.navbar-inverse {
+    border-color: #fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+    background-color: #dd0
+}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #dd0;
+    background-color: white;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #dd0;
+    background-color: white;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #dd0;
+    background-color: #fff;
+}

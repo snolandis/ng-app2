@@ -10,11 +10,8 @@ import { FeatureDetailsComponent } from './features/feature-details/feature-deta
 import { HttpModule } from '@angular/http';
 import { FeatureModule } from './features/features.module';
 
-const appRoutes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'features', component: FeaturesComponent },
-  { path: 'feature-card', component: FeatureCardComponent },
-  { path: 'feature-details', component: FeatureDetailsComponent },
+const routes: Routes = [
+  {path: '', component: HomeComponent, pathMatch: 'full'}
 ];
 
 @NgModule({
@@ -27,7 +24,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes),
+    RouterModule.forRoot(routes),
     FeatureModule,
     HttpModule
   ],
