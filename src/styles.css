@@ -10,14 +10,14 @@ h1, h2, h3, p {
   height: 100%
 }
 #pink {
-  background-color: #FE4972
+  background-color: #FE4972;
 }
 #yellow {
-  background-color: #dd0
+  background-color: #dd0;
 }
 #yellow-full {
   height: 100%;
-  background-color: #dd0
+  background-color: #dd0;
 }
 .btn-default {
     color: #fff;
@@ -38,7 +38,7 @@ h1, h2, h3, p {
 }
 .navbar-inverse .navbar-brand {
     color: #fff;
-    background-color: #dd0
+    background-color: #dd0;
 }
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
     color: #dd0;
